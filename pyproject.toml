@@ -1,0 +1,24 @@
+[project]
+name = "project-tree-generator-pro"
+version = "1.0.0"
+description = "A professional tool to generate project tree structures and optionally include file contents."
+requires-python = ">=3.11"
+dependencies = ["PySide6"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "I", "UP", "SIM", "TID", "ARG", "PLC", "PLE"]
+ignore = ["E501", "E402"]
+fixable = ["ALL"]
+unfixable = []
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"

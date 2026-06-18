@@ -1,0 +1,79 @@
+# ==========================================
+# Python / Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Python Build & Distribution
+# ==========================================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ==========================================
+# PyInstaller Artifacts
+# ==========================================
+*.spec
+main.spec
+
+# ==========================================
+# Inno Setup Output
+# ==========================================
+Release/
+
+# ==========================================
+# Python Cache & Testing
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Linters & Formatters
+# ==========================================
+.ruff_cache/
+.mypy_cache/
+
+# ==========================================
+# IDEs & Code Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS Specific Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Local App Data & Generated Outputs (Project Specific)
+# ==========================================
+**/settings.ini
+**/app.log
+project_structure.txt
+*.log
+
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+.env.local
